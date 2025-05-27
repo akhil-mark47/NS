@@ -1,6 +1,6 @@
 "use client"
-import { motion, useAnimation } from 'framer-motion';
-import { useRef, useEffect, useState } from 'react';
+import { motion } from 'framer-motion';
+import { useRef, useState } from 'react';
 import { Card } from '@/components/ui/card';
 import Image from 'next/image';
 const testimonials = [
@@ -118,7 +118,7 @@ export default function Testimonials() {
           </div>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold gradient-text mb-4">What Our Clients Say</h2>
           <p className="text-navaidixSlate/70 max-w-2xl mx-auto text-lg">
-            Discover how we've helped businesses around the world find exceptional talent and build amazing teams.
+            Discover how we&apos;ve helped businesses around the world find exceptional talent and build amazing teams.
           </p>
         </motion.div>
 
@@ -183,7 +183,7 @@ export default function Testimonials() {
                       </svg>
                     </div>
                     
-                    <p className="text-navaidixSlate mb-6 italic">"{testimonial.quote}"</p>
+                    <p className="text-navaidixSlate mb-6 italic">&quot;{testimonial.quote}&quot;</p>
                     
                     <div className="h-1 w-16 bg-gradient-to-r from-navaidixAmber to-navaidixOrange rounded-full"></div>
                   </motion.div>

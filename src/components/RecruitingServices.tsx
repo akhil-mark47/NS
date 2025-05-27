@@ -1,7 +1,6 @@
 "use client"
 
 import { motion } from 'framer-motion';
-import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { scrollToSection } from '@/lib/utils';
 
@@ -107,25 +106,7 @@ const ServiceCard = ({
   </motion.div>
 );
 
-// Particle component for background effects
-const Particle = ({ className }: { className: string }) => (
-  <motion.div
-    className={className}
-    initial={{ opacity: 0, scale: 0 }}
-    animate={{ 
-      opacity: [0, 0.8, 0],
-      scale: [0, 1, 2],
-      y: [0, -50, -100],
-      x: [0, 20, 0, -20, 0]
-    }}
-    transition={{ 
-      duration: 5,
-      repeat: Infinity,
-      repeatType: "loop",
-      ease: "linear"
-    }}
-  />
-);
+
 
 export default function RecruitingServices() {
   // Services data

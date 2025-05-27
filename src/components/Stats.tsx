@@ -77,7 +77,7 @@ export default function Stats() {
         >
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-navaidixSlate mb-4">Our Global Impact</h2>
           <p className="text-navaidixSlate/70 max-w-2xl mx-auto text-lg">
-            We've helped companies around the world find exceptional talent and build amazing teams.
+            We&apos;ve helped companies around the world find exceptional talent and build amazing teams.
           </p>
         </motion.div>
         

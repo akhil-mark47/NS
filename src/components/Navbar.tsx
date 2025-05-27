@@ -1,7 +1,7 @@
 "use client"
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { Button } from '@/components/ui/button';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { scrollToSection } from '@/lib/utils';
 
 export default function NavBar() {
