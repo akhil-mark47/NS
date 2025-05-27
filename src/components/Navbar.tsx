@@ -1,4 +1,3 @@
-
 "use client"
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { Button } from '@/components/ui/button';
@@ -10,29 +9,7 @@ export default function NavBar() {
   const backgroundOpacity = useTransform(scrollY, [0, 100], [0, 0.9]);
   const backdropBlur = useTransform(scrollY, [0, 100], [0, 8]);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [activeSection, setActiveSection] = useState('home');
 
-  // Update active section based on scroll position
-  useEffect(() => {
-    const handleScroll = () => {
-      const sections = ['home', 'services', 'testimonials', 'contact'];
-      const scrollPosition = window.scrollY + 100; // Add offset for navbar
-
-      for (const section of sections) {
-        const element = document.getElementById(section);
-        if (element) {
-          const { offsetTop, offsetHeight } = element;
-          if (scrollPosition >= offsetTop && scrollPosition < offsetTop + offsetHeight) {
-            setActiveSection(section);
-            break;
-          }
-        }
-      }
-    };
-
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
   // Navigation items
   const navItems = [
     { label: 'Home', href: 'home' },

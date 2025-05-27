@@ -2,7 +2,7 @@
 import { motion, useAnimation } from 'framer-motion';
 import { useRef, useEffect, useState } from 'react';
 import { Card } from '@/components/ui/card';
-
+import Image from 'next/image';
 const testimonials = [
   { 
     quote: 'Navaidix helped us find 10 exceptional engineers in Hyderabad within just 2 weeks! Their talent pool is unmatched.', 
@@ -161,7 +161,7 @@ export default function Testimonials() {
                     <div className="flex items-center mb-4">
                       <div className="w-12 h-12 bg-navaidixAmber/20 rounded-full flex items-center justify-center mr-4">
                         {testimonial.image ? (
-                          <img 
+                          <Image
                             src={testimonial.image} 
                             alt={testimonial.author} 
                             className="w-12 h-12 rounded-full object-cover"

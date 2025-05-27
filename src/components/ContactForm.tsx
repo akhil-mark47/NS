@@ -30,7 +30,7 @@ export default function ContactForm() {
       // Show success message
       setSuccess(true);
       setFormData({ name: '', email: '', company: '', message: '' });
-    } catch (err: any) {
+    } catch (err: unknown) {
       console.error('Form submission error:', err);
       setError('Failed to submit form. Please try again later.');
     } finally {
@@ -159,7 +159,7 @@ export default function ContactForm() {
                     animate={{ opacity: 1, y: 0 }}
                     className="mt-4 text-navaidixGreen text-center font-medium"
                   >
-                    Message sent successfully! We'll get back to you soon.
+                    Message sent successfully! We&apos;ll get back to you soon.
                   </motion.p>
                 )}
                 {error && (

@@ -1,7 +1,7 @@
 "use client"
 import { motion } from 'framer-motion';
 import React from 'react';
-
+import Image from 'next/image';
 interface ClientLogo {
   name: string;
   logo: string;
@@ -76,7 +76,7 @@ const ClientRow: React.FC<ClientRowProps> = ({ logos, direction = 'left', speed 
             className="flex-shrink-0 w-32 h-32 rounded-xl bg-white/90 border border-navaidixAmber/10 backdrop-blur-sm p-4 
               hover:border-navaidixAmber/30 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
           >            <div className="w-full h-full flex items-center justify-center">
-              <img 
+              <Image
                 src={client.logo} 
                 alt={`${client.name} logo`}
                 className="w-auto h-12 object-contain hover:opacity-80 transition-opacity"
