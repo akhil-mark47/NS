@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="150" height="60" viewBox="0 0 150 60" xmlns="http://www.w3.org/2000/svg">
+  <g fill="#F25022">
+    <path d="M30,15 c0-3,2-5,5-5 h80 c3,0,5,2,5,5 v30 c0,3-2,5-5,5 H35 c-3,0-5-2-5-5 z"/>
+  </g>
+  <text x="45" y="35" font-family="Arial, sans-serif" font-size="16" fill="#FFF">oracle</text>
+</svg>

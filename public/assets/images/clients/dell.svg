@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="150" height="60" viewBox="0 0 150 60" xmlns="http://www.w3.org/2000/svg">
+  <g fill="#2D72D9">
+    <path d="M20,20 h30 v5 h-25 v15 h25 v5 h-30 z"/>
+    <text x="60" y="35" font-family="Arial, sans-serif" font-size="18">Dell</text>
+  </g>
+</svg>

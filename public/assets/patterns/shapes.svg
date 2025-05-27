@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <!-- Gradients for dynamic effects -->
+    <radialGradient id="amberGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#F59E0B" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#F59E0B" stop-opacity="0.1"/>
+    </radialGradient>
+    
+    <linearGradient id="slateFlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E2E8F0" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#E2E8F0" stop-opacity="0.05"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background curved lines for depth -->
+  <path d="M-100,600 Q300,400 600,500 Q900,600 1300,300" 
+        stroke="#E2E8F0" 
+        stroke-width="2" 
+        fill="none" 
+        opacity="0.15"/>
+  
+  <path d="M-50,200 Q400,100 800,250 Q1000,300 1250,150" 
+        stroke="#F59E0B" 
+        stroke-width="1.5" 
+        fill="none" 
+        opacity="0.2"/>
+  
+  <!-- Large background circles -->
+  <circle cx="200" cy="150" r="120" 
+          fill="url(#amberGlow)" 
+          opacity="0.6"/>
+  
+  <circle cx="950" cy="650" r="180" 
+          fill="url(#slateFlow)" 
+          opacity="0.4"/>
+  
+  <!-- Dynamic triangular shapes -->
+  <polygon points="800,100 900,300 700,280" 
+           fill="#F59E0B" 
+           opacity="0.25"/>
+  
+  <polygon points="150,500 300,650 100,700" 
+           fill="#E2E8F0" 
+           opacity="0.3"/>
+  
+  <polygon points="1000,200 1150,50 1100,350" 
+           fill="#F59E0B" 
+           opacity="0.18"/>
+  
+  <!-- Medium accent circles -->
+  <circle cx="600" cy="200" r="80" 
+          fill="#E2E8F0" 
+          opacity="0.2"/>
+  
+  <circle cx="350" cy="600" r="60" 
+          fill="#F59E0B" 
+          opacity="0.35"/>
+  
+  <circle cx="1050" cy="450" r="95" 
+          fill="#E2E8F0" 
+          opacity="0.15"/>
+  
+  <!-- Curved path elements -->
+  <path d="M400,350 Q550,250 700,350 Q850,450 1000,350" 
+        stroke="#F59E0B" 
+        stroke-width="3" 
+        fill="none" 
+        opacity="0.25"/>
+  
+  <path d="M200,750 Q400,650 600,700 Q800,750 1000,650" 
+        stroke="#E2E8F0" 
+        stroke-width="2" 
+        fill="none" 
+        opacity="0.2"/>
+  
+  <!-- Small detail circles -->
+  <circle cx="750" cy="500" r="25" 
+          fill="#F59E0B" 
+          opacity="0.4"/>
+  
+  <circle cx="500" cy="100" r="20" 
+          fill="#E2E8F0" 
+          opacity="0.35"/>
+  
+  <circle cx="180" cy="350" r="30" 
+          fill="#F59E0B" 
+          opacity="0.3"/>
+  
+  <circle cx="850" cy="750" r="35" 
+          fill="#E2E8F0" 
+          opacity="0.25"/>
+  
+  <!-- Angular geometric shapes -->
+  <polygon points="450,450 520,400 550,480 480,520" 
+           fill="#E2E8F0" 
+           opacity="0.28"/>
+  
+  <polygon points="900,500 950,480 970,530 920,550" 
+           fill="#F59E0B" 
+           opacity="0.32"/>
+  
+  <!-- Flowing curved elements -->
+  <path d="M50,300 Q200,200 350,300 Q500,400 650,300" 
+        stroke="#E2E8F0" 
+        stroke-width="1" 
+        fill="none" 
+        opacity="0.18"/>
+  
+  <path d="M750,600 Q900,500 1050,600 Q1200,700 1350,600" 
+        stroke="#F59E0B" 
+        stroke-width="1" 
+        fill="none" 
+        opacity="0.22"/>
+</svg>
