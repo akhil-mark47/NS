@@ -95,7 +95,7 @@ const ClientRow: React.FC<ClientRowProps> = ({ logos, direction = 'left', speed 
 
 export default function OurClients() {
   return (
-    <section className="py-24 relative overflow-hidden">
+    <section id="clients" className="py-24 relative overflow-hidden">
       {/* Background gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-navaidixAmber/5 to-navaidixOrange/5" />
       
