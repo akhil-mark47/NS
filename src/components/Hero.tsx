@@ -92,7 +92,7 @@ export default function Hero() {
     <section 
       id="home" 
       ref={heroRef}
-      className="relative min-h-screen flex items-center justify-center overflow-hidden"
+      className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20 md:pt-0"
     >      {/* Animated background gradient */}
       <div className="absolute inset-0 bg-gradient-to-r from-navaidixDark via-navaidixDark to-navaidixDark/90 z-0" />
       <div className="absolute right-0 top-0 bottom-0 w-1/2 bg-gradient-to-l from-navaidixAmber/20 to-transparent z-0 blur-xl" />

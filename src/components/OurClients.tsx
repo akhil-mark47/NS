@@ -79,6 +79,8 @@ const ClientRow: React.FC<ClientRowProps> = ({ logos, direction = 'left', speed 
               <Image
                 src={client.logo} 
                 alt={`${client.name} logo`}
+                width={100}
+                height={48}
                 className="w-auto h-12 object-contain hover:opacity-80 transition-opacity"
               />
             </div>

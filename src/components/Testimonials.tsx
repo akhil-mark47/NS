@@ -164,6 +164,8 @@ export default function Testimonials() {
                           <Image
                             src={testimonial.image} 
                             alt={testimonial.author} 
+                              width={100}
+                               height={48}
                             className="w-12 h-12 rounded-full object-cover"
                           />
                         ) : (
